@@ -1,11 +1,14 @@
-[
-   {
-    "IdPergunta": 1,
-    "Pergunta": "at nam consequatur ea labore ea harum",
-    "Resposta1": "cupiditate quo est a modi nesciunt soluta\nipsa ",
-    "Resposta2": "voluptas error itaque dicta in\nautem qui ",
-     "Resposta3": "minus magnam et distinctio eum\naccusamus  ",
-     "Resposta4": "cupiditate quo ratione error aut "
- 
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
